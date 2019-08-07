@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">32de85e2db4f33003ac82a9a48961978</block>
+        <comment>Assign follow up task to outut</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Tasks">6fe01166db4f33003ac82a9a489619bd</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned>follow_up_task</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Devil</sys_created_by>
+        <sys_created_on>2019-08-06 18:14:04</sys_created_on>
+        <sys_id>a3e01166db4f33003ac82a9a489619f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Spoke" source="x_167615_needit_sp">f7423612dbc733003ac82a9a489619ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">f7423612dbc733003ac82a9a489619ea</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_a3e01166db4f33003ac82a9a489619f1</sys_update_name>
+        <sys_updated_by>Devil</sys_updated_by>
+        <sys_updated_on>2019-08-06 18:14:04</sys_updated_on>
+        <ui_id>dfbdaf98-5a20-4759-9cca-3b1062d284ca</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a3e01166db4f33003ac82a9a489619f1"/>
+    <sys_element_mapping action="delete_multiple" query="id=a3e01166db4f33003ac82a9a489619f1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>follow_up_task</field>
+        <id>a3e01166db4f33003ac82a9a489619f1</id>
+        <sys_created_by>Devil</sys_created_by>
+        <sys_created_on>2019-08-06 18:14:05</sys_created_on>
+        <sys_id>6be01166db4f33003ac82a9a489619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Devil</sys_updated_by>
+        <sys_updated_on>2019-08-06 18:14:05</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_6fe01166db4f33003ac82a9a489619bd</table>
+        <value>{{06b36a8b-7555-4ccc-9a35-1523ab9412e5.Record}}</value>
+    </sys_element_mapping>
+</record_update>

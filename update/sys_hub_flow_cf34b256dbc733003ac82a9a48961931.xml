@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to test custom Action</description>
+        <internal_name>action_test_flow</internal_name>
+        <label_cache>[{"name":"Run Once_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Action Test Flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Devil</sys_created_by>
+        <sys_created_on>2019-08-06 06:49:27</sys_created_on>
+        <sys_id>cf34b256dbc733003ac82a9a48961931</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Action Test Flow</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_167615_needit_sp">f7423612dbc733003ac82a9a489619ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">f7423612dbc733003ac82a9a489619ea</sys_scope>
+        <sys_update_name>sys_hub_flow_cf34b256dbc733003ac82a9a48961931</sys_update_name>
+        <sys_updated_by>Devil</sys_updated_by>
+        <sys_updated_on>2019-08-06 08:31:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf34b256dbc733003ac82a9a48961931"/>
+    <sys_variable_value action="delete_multiple" query="document_key=cf34b256dbc733003ac82a9a48961931"/>
+</record_update>
